@@ -5,6 +5,11 @@
 const canvas = document.querySelector('#myCanvas');
 const context = canvas.getContext('2d');
 
+/*Define two counter variables deltaX and deltaY to keep count of how far to move triangle as a result of arrow key press*/
+
+let deltaX = 0;
+let deltaY = 0;
+
 /*Create function statement for drawTriangle*/
 
 function drawTriangle() {
@@ -45,11 +50,6 @@ drawTriangle();
 window.addEventListener('keydown', moveSomething, false);
 
 //Create function statement for event object moveSomething(e)
-
-/*Define two counter variables deltaX and deltaY to keep count of how far to move triangle as a result of arrow key press*/
-
-let deltaX = 0;
-let deltaY = 0;
 
 /*Add deltaX and deltaY movements to moveSomething switch statement*/
 
