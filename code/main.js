@@ -57,7 +57,9 @@ function moveSomething(e) {
 
     // add switch statement for keys to listen to using their keycodes
 
-    switch(e.keycode) {
+    //Correct keycode to keyCode
+
+    switch(e.keyCode) {
         
         case 37:
             deltaX -= 2;
