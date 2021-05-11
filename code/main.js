@@ -42,5 +42,27 @@ window.addEventListener('keydown', moveSomething, false);
 
 function moveSomething(e) {
 
+    // add switch statement for keys to listen to using their keycodes
+
+    switch(e.keycode) {
+        
+        case 37:
+            // left key press
+            break;
+
+        case 38:
+            // up key press
+            break;
+
+        case 39:
+            // right key press
+            break;
+
+        case 40:
+            // down key press
+            break;
+
+    }
+
 }
 
