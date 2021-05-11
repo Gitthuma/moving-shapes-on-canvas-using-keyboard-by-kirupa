@@ -34,3 +34,7 @@ function drawTriangle() {
 
 drawTriangle();
 
+//Add keydown event listener
+
+window.addEventListener('keydown', moveSomething, false);
+
