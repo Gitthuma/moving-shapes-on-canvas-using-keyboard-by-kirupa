@@ -7,14 +7,16 @@ const context = canvas.getContext('2d');
 
 /*Create function statement for drawTriangle*/
 
+/*Modify drawTriangle so that deltaX and deltaY can have an effect on the triangle movement*/
+
 function drawTriangle() {
 
     // draw the triangle
 
     context.beginPath();
-    context.moveTo(200, 100);
-    context.lineTo(170, 150);
-    context.lineTo(230, 150);
+    context.moveTo(200 + deltaX, 100 + deltaY);
+    context.lineTo(170 + deltaX, 150 + deltaY);
+    context.lineTo(230 + deltaX, 150 + deltaY);
     context.closePath();
 
     // draw the outline
