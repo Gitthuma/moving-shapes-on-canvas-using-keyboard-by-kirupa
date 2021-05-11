@@ -40,6 +40,11 @@ window.addEventListener('keydown', moveSomething, false);
 
 //Create function statement for event object moveSomething(e)
 
+/*Define two counter variables deltaX and deltaY to keep count of how far to move triangle as a result of arrow key press*/
+
+let deltaX = 0;
+let deltaY = 0;
+
 function moveSomething(e) {
 
     // add switch statement for keys to listen to using their keycodes
@@ -65,4 +70,6 @@ function moveSomething(e) {
     }
 
 }
+
+
 
