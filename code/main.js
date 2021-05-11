@@ -23,6 +23,10 @@ function drawTriangle() {
     context.strokeStyle = 'rgba(102, 102, 102, 1)';
     context.stroke();
 
+    // add the fill color
+
+    context.fillStyle = 'rgba(255, 204, 0, 1)';
+    context.fill();
 
 }
 
