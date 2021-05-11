@@ -30,3 +30,7 @@ function drawTriangle() {
 
 }
 
+//Call the function drawTriangle
+
+drawTriangle();
+
