@@ -38,3 +38,9 @@ drawTriangle();
 
 window.addEventListener('keydown', moveSomething, false);
 
+//Create function statement for event object moveSomething(e)
+
+function moveSomething(e) {
+
+}
+
