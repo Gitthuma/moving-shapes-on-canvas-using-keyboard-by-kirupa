@@ -45,6 +45,8 @@ window.addEventListener('keydown', moveSomething, false);
 let deltaX = 0;
 let deltaY = 0;
 
+/*Add deltaX and deltaY movements to moveSomething switch statement*/
+
 function moveSomething(e) {
 
     // add switch statement for keys to listen to using their keycodes
@@ -52,19 +54,19 @@ function moveSomething(e) {
     switch(e.keycode) {
         
         case 37:
-            // left key press
+            deltaX -= 2;
             break;
 
         case 38:
-            // up key press
+            deltaY -= 2;
             break;
 
         case 39:
-            // right key press
+            deltaX += 2;
             break;
 
         case 40:
-            // down key press
+            deltaY += 2;
             break;
 
     }
