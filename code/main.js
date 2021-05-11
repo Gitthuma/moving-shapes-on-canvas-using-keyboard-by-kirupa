@@ -10,7 +10,7 @@ const context = canvas.getContext('2d');
 function drawTriangle() {
 
     /*Add a line to clear canvas before redrwawing the rectangle*/
-    
+
     context.clearRect(0, 0, canvas.width, canvas.height);
 
     // draw the triangle
@@ -76,6 +76,10 @@ function moveSomething(e) {
             break;
 
     }
+
+    /*Add the call drawTriangle to draw a triangle in new position each time a key is pressed*/
+
+    drawTriangle();
 
 }
 
