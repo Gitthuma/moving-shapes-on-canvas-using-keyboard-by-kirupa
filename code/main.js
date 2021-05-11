@@ -17,6 +17,12 @@ function drawTriangle() {
     context.lineTo(230, 150);
     context.closePath();
 
+    // draw the outline
+
+    context.lineWidth = 10;
+    context.strokeStyle = 'rgba(102, 102, 102, 1)';
+    context.stroke();
+
 
 }
 
