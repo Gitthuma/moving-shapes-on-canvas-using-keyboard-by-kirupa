@@ -4,3 +4,8 @@
 const canvas = document.querySelector('#myCanvas');
 const context = canvas.getContext('2d');
 
+/*Create function statement for drawTriangle*/
+function drawTriangle() {
+
+}
+
