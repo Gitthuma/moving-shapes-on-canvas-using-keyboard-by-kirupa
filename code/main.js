@@ -70,6 +70,10 @@ function keyPressed(e) {
 
     //Correct keycode to keyCode
 
+    //Use keys to store an entry for every key pressed
+
+    keys[e.keyCode] = true;
+
     switch(e.keyCode) {
         
         case 37:
