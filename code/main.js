@@ -62,7 +62,9 @@ let keys = [];
 
 /*Add deltaX and deltaY movements to moveSomething switch statement*/
 
-function moveSomething(e) {
+//Change function moveSomething to keyPressed
+
+function keyPressed(e) {
 
     // add switch statement for keys to listen to using their keycodes
 
