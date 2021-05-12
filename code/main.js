@@ -110,6 +110,9 @@ function keyPressed(e) {
 
 function keyReleased(e) {
 
+    //Use keys to mark keys released
+
+    keys[e.keyCode] = false;
 }
 
 
