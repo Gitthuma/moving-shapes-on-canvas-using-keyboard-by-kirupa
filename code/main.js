@@ -54,6 +54,10 @@ drawTriangle();
 window.addEventListener('keydown', keyPressed, false);
 window.addEventListener('keyup', KeyReleased, false);
 
+/*Add a variable called keys to be used inside keyPressed and keyReleased to mark pressed and released keys*/
+
+let keys = [];
+
 //Create function statement for event object moveSomething(e)
 
 /*Add deltaX and deltaY movements to moveSomething switch statement*/
