@@ -47,7 +47,12 @@ drawTriangle();
 
 //Add keydown event listener
 
-window.addEventListener('keydown', moveSomething, false);
+//Improve key handling logic
+
+/*Add a keydown and keyup event listener with keyPressed and keyReleased functions*/
+
+window.addEventListener('keydown', keyPressed, false);
+window.addEventListener('keyup', KeyReleased, false);
 
 //Create function statement for event object moveSomething(e)
 
