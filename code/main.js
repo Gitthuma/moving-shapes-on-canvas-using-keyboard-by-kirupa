@@ -106,5 +106,11 @@ function keyPressed(e) {
 
 }
 
+//Add a function with event object keyReleased
+
+function keyReleased(e) {
+
+}
+
 
 
