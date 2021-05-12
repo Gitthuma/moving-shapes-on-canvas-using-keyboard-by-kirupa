@@ -79,6 +79,10 @@ function moveSomething(e) {
 
     }
 
+    // Add line to prevent normal keyboard behaviour.
+
+    e.preventDefault();
+
     /*Add the call drawTriangle to draw a triangle in new position each time a key is pressed*/
 
     drawTriangle();
