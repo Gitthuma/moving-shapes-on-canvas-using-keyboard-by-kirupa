@@ -74,24 +74,26 @@ function keyPressed(e) {
 
     keys[e.keyCode] = true;
 
-    switch(e.keyCode) {
-        
-        case 37:
-            deltaX -= 2;
-            break;
+    //Change switch statement to if statments that use keys to mark pressed keys
 
-        case 38:
-            deltaY -= 2;
-            break;
+    //left
+    if (keys[37]) {
+        deltaX -= 2;
+    }
+    
+    //up
+    if (keys[38]) {
+        deltaY -= 2;
+    }
 
-        case 39:
-            deltaX += 2;
-            break;
+    //right
+    if (keys[39]) {
+        deltaX += 2;
+    }
 
-        case 40:
-            deltaY += 2;
-            break;
-
+    //down
+    if (keys[40]) {
+        deltaY += 2;
     }
 
     // Add line to prevent normal keyboard behaviour.
