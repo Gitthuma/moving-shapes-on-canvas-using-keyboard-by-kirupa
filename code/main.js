@@ -52,7 +52,7 @@ drawTriangle();
 /*Add a keydown and keyup event listener with keyPressed and keyReleased functions*/
 
 window.addEventListener('keydown', keyPressed, false);
-window.addEventListener('keyup', KeyReleased, false);
+window.addEventListener('keyup', keyReleased, false); //Correct KeyReleased to keyReleased
 
 /*Add a variable called keys to be used inside keyPressed and keyReleased to mark pressed and released keys*/
 
